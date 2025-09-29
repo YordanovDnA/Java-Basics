@@ -25,7 +25,7 @@ This folder contains a subfolder called “mycompany”, which in turn contains 
 Files that belong to the com.mycompany.app package will be stored in this folder.
 */
 
-public class HelloJavaWorld {
+public class App {
     public static void main(String[] args) {
         System.out.println("Hello Java World!");
     }
