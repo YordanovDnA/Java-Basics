@@ -6,32 +6,38 @@
 package com.mycompany.app;
 
 /*
-On the first line, we have the statement package com.mycompany.helloworld;
+On the first line, we have the statement package com.mycompany.app;
 
 This statement tells the compiler that the Java file we wrote belongs to the 
-com.mycompany.helloworld package.
+com.mycompany.app package.
 
 A package is a grouping of related classes and interfaces. 
 Do not worry if you do not know what classes and 
 interfaces are; we’ll cover them in subsequent chapters. 
 
-When we write package com.mycompany.helloworld; at the top of our file,
+When we write package com.mycompany.app; at the top of our file,
 we are asking the compiler to include this file in the
-com.mycompany.helloworld package.
+com.mycompany.app package.
 
 The compiler will then create a folder called “com”. 
-This folder contains a subfolder called “mycompany”, which in turn contains a deeper subfolder called “helloworld”.
+This folder contains a subfolder called “mycompany”, which in turn contains a deeper subfolder called app.
 
-Files that belong to the com.mycompany.helloworld package will be stored in this folder.
+Files that belong to the com.mycompany.app package will be stored in this folder.
 */
 
-public class App {
+public class HelloJavaWorld {
     public static void main(String[] args) {
-        System.out.println("Hello Remote World!");
+        System.out.println("Hello Java World!");
     }
 }
 
 /*
  * The main() method is the entry point of all Java applications. 
  * Whenever a Java application is started, the main() method is the first method to be called.
+ * 
+ * System.out.println("Hello Remote World!"); displays the line “Hello World” (without quotes)
+ * on the output window (located at the bottom of the screen). 
+ * Note that this statement ends with a semi-colon. 
+ * All statements in Java must end with a semi-colon (;). 
+ * This is similar to most of the other programming languages like C and C++.
  */
