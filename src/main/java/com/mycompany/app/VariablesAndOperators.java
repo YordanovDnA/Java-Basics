@@ -2,6 +2,7 @@ package com.mycompany.app;
 
 public class VariablesAndOperators {
     public static void main(String[] args) {
+        /*Primitive data types */
         //Boolean
         boolean myBoolean = false;
         System.out.println("My Boolean: " + myBoolean);
